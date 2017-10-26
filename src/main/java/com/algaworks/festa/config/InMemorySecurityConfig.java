@@ -14,8 +14,8 @@ public class InMemorySecurityConfig {
 			.inMemoryAuthentication()
 			.withUser("joao").password("123").roles("USER")
 			.and()
-			.withUser("alexandre").password("123").roles("USER")
+			.withUser("jose").password("123").roles("USER")
 			.and()
-			.withUser("thiago").password("123").roles("USER");
+			.withUser("danilo").password("123").roles("USER");
 	}
 }
